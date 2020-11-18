@@ -168,10 +168,11 @@ text-align: center;
 text-decoration: none;
 width: 40px;
 }
-#scrollUp:hover {
-  opacity: 1;
-  color: #fff!important;background:#d9ba03;
-}
+    #scrollUp:hover {
+        opacity: 1;
+        color: #fff !important;
+        background: #262626;
+    }
 #scrollUp i {
 display: block;
 font-weight: bold;
@@ -789,32 +790,43 @@ transition: all 0.4s ease-in-out 0s;
 margin-bottom: 30px;transition: all 0.7s ease 0s;background:#fab909;
 }
 .project-hoverlay::before {
-	content: "";
-	position: absolute;
-	height: 100%;
-	width:0%;
-	background:#fab909;
-	filter: alpha(opacity=75);
-	-moz-opacity: 0.75;
-	opacity: 0.75;	
-	top: 0;
-	left:0;transition: all 0.7s ease 0s;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #2391be;
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    transition: all 0.7s ease 0s;
 }
 .project-sec .item:hover:hover .project-hoverlay::before{width:100%;transition: all 0.7s ease 0s;}
 .project-hoverlay {
-	position: absolute;
+    position: absolute;
 	top: 0%;
 	width: 100%;
 	height: 100%;
+    
 }
 
 .project-text {
-  position: relative;
+    /*position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
  transition: all 0.7s ease 0s;
- visibility:hidden;
+ visibility:hidden;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
 }
 .project-text a,
 .project-text h3{transform:scale(0); transition: all 0.9s ease 0s;}
@@ -1780,13 +1792,13 @@ margin-bottom: 10px;
 	position: relative;
 	background-size: cover;
 }
-.pagehding-sec1 page-heading{
-	background-image: url("../img/pg_hd1.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	padding: 50px 0;
-	position: relative;
-	background-size: cover;
+.pagehding-sec1 page-heading {
+    background-image: url("../img/SecurityGuard.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    position: relative;
+    background-size: cover;
 }
 .pagehding-sec {
 	background-image: url("../img/Certif.jpg");
