@@ -144,7 +144,7 @@ width: 100%;
 #preloader-status {
     height: 210px;
 	width: 210px;
-    background: url(../img/Load.gif);
+    background: url(../img/Debas.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
@@ -1753,7 +1753,7 @@ margin-bottom: 10px;
 16.Page Heading Section
 ==========================*/
 .pagehding-sec6 {
-	background-image: url("../img/pg_hd6.jpg");
+	background-image: url("../img/ContactUs.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding: 50px 0;
@@ -1761,7 +1761,7 @@ margin-bottom: 10px;
 	background-size: cover;
 }
 .pagehding-sec5 {
-	background-image: url("../img/pg_hd5.jpg");
+	background-image: url("../img/OtherSer.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding: 50px 0;
@@ -1777,7 +1777,7 @@ margin-bottom: 10px;
 	background-size: cover;
 }
 .pagehding-sec3 {
-	background-image: url("../img/pg_hd3.jpg");
+	background-image: url("../img/inner-bg.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding: 50px 0;
@@ -1785,15 +1785,15 @@ margin-bottom: 10px;
 	background-size: cover;
 }
 .pagehding-sec2 {
-	background-image: url("../img/pg_hd2.jpg");
+	background-image: url("../img/Manpower.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding: 50px 0;
 	position: relative;
 	background-size: cover;
 }
-.pagehding-sec1 page-heading {
-    background-image: url("../img/SecurityGuard.jpg");
+.pagehding-sec1{
+    background-image: url("../img/Security-Service-Best-Wallpaper-1024x631.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -1801,7 +1801,7 @@ margin-bottom: 10px;
     background-size: cover;
 }
 .pagehding-sec {
-	background-image: url("../img/Certif.jpg");
+	background-image: url("../img/CertificateD.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding: 50px 0;
